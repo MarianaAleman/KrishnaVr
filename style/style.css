@@ -1,0 +1,392 @@
+html {
+  background-color: #0b2d39;
+  margin:-10px;
+	padding:0px;
+}
+
+header{
+  background: white;
+}
+
+/*--------------------------------------------- Menu -------------------------------*/
+header nav {
+	background:#145369;
+  position: fixed;
+  z-index: 1100;
+  float: left;
+  width: 100%;
+}
+
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li {
+	float: right;
+  padding-right: 10px;
+}
+
+header nav ul li a {
+	display: block;
+	padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+	color: white;
+  font-family: "Poppins", sans-serif;
+	text-decoration: none;
+
+}
+
+header nav ul li a:hover {
+	background:#0b2d39;
+}
+
+
+#div_principal{
+  background-color: white;
+  height:1550px;
+  width: 900px;
+  margin: auto;
+}
+/*------------------------index---------------------*/
+#video1{
+padding-left: 90px;
+padding-top: 100px;
+}
+
+#imgindex{
+  height: 440px;
+  padding-top: 50px;
+  float: left;
+  padding-left: 20px;
+}
+.parrafosindex{
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: 15px;
+  padding-top: 60px;
+  padding-left: 410px;
+  padding-right: 80px;
+}
+.parrafosindex1{
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 410px;
+  padding-right: 80px;
+}
+/*------------------------Slider index---------------------*/
+#slideshow-principal{
+  position: relative;
+  overflow: hidden;
+  height: 700px
+}
+#progress-bar-cointainer{
+  position: relative;
+  height: 10px;
+  width: 100%;
+  border-color: rgba (0, 0, 0, 2);
+  top: 0;
+  z-index: 1000;
+}
+#progress-bar{
+  height: 100%;
+  background-color: rgba (228, 69, 69, 0.7);
+  border-radius: 0 3px 3px 0;
+  transition: width 0.8s;
+}
+#slideshow{
+  position: relative;
+  z-index: 998;
+  height: 600px;
+}
+
+#img1{
+  position: absolute;
+  height: 150%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+#img2{
+  position: absolute;
+  height: 150%;
+  width: 100%;
+  top: 0;
+  object-fit: cover;
+  left: 100%;
+}
+.active{
+  left: 0 !important;
+}
+#indicadores{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  z-index: 999;
+}
+.circles{
+  border: white 2px solid;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.resaltado{
+  background-color: white;
+  transition: background-color .8s;
+}
+/*---------------------------body index-----------------------*/
+#div1{
+  background-color: white;
+  height:450px;
+  width: 750px;
+  margin: auto;
+}
+
+#title1{
+  font-family: "Poppins";
+  font-size:50px;
+  padding-top: 50px;
+}
+
+
+
+.parrafos{
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: 15px;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h3{
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: 15px;
+  padding-left: 25px;
+}
+h4{
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  color: gray;
+  font-size: 15px;
+  padding-left: 25px;
+}
+hr{
+  width:100px;
+  border:3px solid  #145369;
+  border-radius: 25px;
+}
+#line{
+  width:100px;
+  border:3px solid  #145369;
+  border-radius: 25px;
+}
+#line2{
+  width:100px;
+  border:3px solid  #145369;
+  border-radius: 25px;
+}
+#imagenes{
+  padding: 50px;
+}
+#redesindex{
+  padding-top: 50px;
+  height:300px;
+  width: 400px;
+  padding-left: 270px;
+}
+#titleredesindex{
+  font-family: "Poppins";
+  font-size:30px;
+  padding-top: 50px;
+}
+/*---------------------------------GALLERY------------------------*/
+#div_principal2{
+  background-color: white;
+  height:2000px;
+  width: 900px;
+  margin: auto;
+}
+#title2{
+  font-family: "Poppins";
+  font-size:50px;
+  padding-top: 50px;
+}
+
+.w3-half img{
+  margin-bottom:-6px;
+  margin-top:16px;
+  opacity:0.8;
+  cursor:pointer
+}
+.w3-half img:hover{
+  opacity:1
+}
+img{
+  height:100%;
+}
+
+.ul {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+ }
+ .listfoto {
+position: relative;
+float: left;
+overflow: hidden;
+width: 380px;
+height: 280px;
+margin-left: 15px;
+}
+.info {
+ display: none;
+ position: absolute;
+ bottom: 0;
+ z-index: 10;
+ background: rgba(0, 0, 0, 0.5);
+ width: 380px;
+ color: #FFF;
+ padding: 5px;
+}
+li:hover .info {
+display: block;
+}
+h5{
+  font-size: 20px;
+  color:white;
+}
+
+
+/*--------------------------------------------BIO----------------------------*/
+#imgbio{
+  height: 440px;
+  padding-top: 50px;
+  float: left;
+  padding-left: 70px;
+}
+.parrafobio{
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: 15px;
+  padding-top: 70px;
+  padding-left: 390px;
+  padding-right: 70px;
+}
+.parrafobio1{
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 390px;
+  padding-right: 70px;
+}
+.parrafobio3{
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+}
+.listfotobio {
+position: relative;
+float: left;
+overflow: hidden;
+width: 210px;
+height: 210px;
+margin-left: 15px;
+margin-top: 15px;
+}
+#listfotosbio{
+  margin-left: 70px;
+  margin-top: 50px;
+}
+#titleEvents{
+  font-family: "Poppins", sans-serif;
+  color: #071e26;
+  font-size: 35px;
+}
+
+
+/*--------------------------------------------TUTORIALS----------------------------*/
+#div_principal3{
+  background-color: white;
+  height:1700px;
+  width: 900px;
+  margin: auto;
+}
+.tutorialsdiv{
+  width: 350px;
+  background-color: #0f3c4c;
+  height: 1200px;
+  margin-left: 30px;
+  margin-top: 30px;
+  float: left;
+}
+.imgtutorial{
+  height: 300px;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.parrafotutorial{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.parrafotutorialtitulo{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.listatutorial{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 14px;
+  padding-left:2px;
+}
+.videostutoriales{
+margin-left: -50px;
+margin-top: 15px;
+}
+/*--------------------------------------------POPUP----------------------------*/
+#div_principalpop{
+  background-color: white;
+  height:450px;
+  width: 450px;
+  margin: auto;
+  margin-top: 35px;
+}
+#titlepop{
+  font-family: "Poppins";
+  font-size:30px;
+}
+.redesicon{
+height: 90px;
+}
+
+#redes{
+  padding-top: 90px;
+  height:300px;
+  width: 400px;
+}
+#fbimg{
+height: 90px;
+padding-right: 20px;
+}
